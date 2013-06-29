@@ -2,17 +2,17 @@
 
 Pretty, minimal and fast VimShell prompt
 
-![screenshot](https://raw.github.com/supermomonga/vimshell-pure.vim/master/screenshot.png)
-
-
 Inspired by [Pure](https://github.com/sindresorhus/pure), the zsh prompt.
+
+
+![screenshot](https://raw.github.com/supermomonga/vimshell-pure.vim/master/screenshot.png)
 
 
 
 # Features
 
-* Pretty designed prompt
-* Display command execution time
+* Comes with the perfect prompt character. Author went through the whole Unicode range to find it.
+* Command execution time will be displayed if it exceeds the one second
 
 
 # Installation
