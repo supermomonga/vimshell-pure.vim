@@ -1,6 +1,15 @@
-# vimshell-kawaii.vim
+# VimShell Pure
 
-To use vimshell-kawaii.vim, you can change your VimShell's prompt dinamically by previous command's status code.
+Pretty, minimal and fast VimShell prompt
+
+Inspired by [Pure](https://github.com/sindresorhus/pure), the zsh prompt.
+
+
+
+# Features
+
+* Pretty designed prompt
+* Display command execution time
 
 
 # Installation
@@ -8,10 +17,5 @@ To use vimshell-kawaii.vim, you can change your VimShell's prompt dinamically by
 I reccomend to use NeoBundle.vim to manage Vim Plugins.
 If you are using NeoBundle.vim, you only need to write following lines to your .vimrc and just execute :NeoBundleInstall.
 
-    NeoBundle 'supermomonga/vimshell-kawaii', {'depends' : 'Shougo/vimshell'}
+    NeoBundle 'supermomonga/vimshell-pure', {'depends' : 'Shougo/vimshell'}
 
-# Usage
-
-Run VimShell, and enjoy kawaii prompt.
-
-    :VimShell
