@@ -4,8 +4,9 @@ Pretty, minimal and fast VimShell prompt
 
 Inspired by [Pure](https://github.com/sindresorhus/pure), the zsh prompt.
 
+<div style="text-align:center;">
 ![screenshot](https://raw.github.com/supermomonga/vimshell-pure.vim/master/screenshot.png)
-
+</div>
 
 
 # Features
@@ -23,7 +24,3 @@ If you are using NeoBundle.vim, you only need to write following lines to your .
 
 
 
-img{
-  display: block;
-  margin: 10px auto;
-}
