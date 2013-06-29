@@ -4,9 +4,7 @@ Pretty, minimal and fast VimShell prompt
 
 Inspired by [Pure](https://github.com/sindresorhus/pure), the zsh prompt.
 
-<div style="text-align:center;">
 ![screenshot](https://raw.github.com/supermomonga/vimshell-pure.vim/master/screenshot.png)
-</div>
 
 
 # Features
