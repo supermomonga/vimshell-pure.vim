@@ -29,22 +29,22 @@ if g:vimshell_pure_allow_overwrite == 1
 endif
 
 if g:vimshell_pure_allow_colorscheme_overwrite == 1
-  let g:vimshell_escape_colors[0]  = '#CC0000'
-  let g:vimshell_escape_colors[1]  = '#CC0000'
-  let g:vimshell_escape_colors[2]  = '#CC0000'
-  let g:vimshell_escape_colors[3]  = '#CC0000'
-  let g:vimshell_escape_colors[4]  = '#CC0000'
-  let g:vimshell_escape_colors[5]  = '#CC0000'
-  let g:vimshell_escape_colors[6]  = '#CC0000'
-  let g:vimshell_escape_colors[7]  = '#CC0000'
-  let g:vimshell_escape_colors[8]  = '#CC0000'
-  let g:vimshell_escape_colors[9]  = '#CC0000'
-  let g:vimshell_escape_colors[10] = '#CC0000'
-  let g:vimshell_escape_colors[11] = '#CC0000'
-  let g:vimshell_escape_colors[12] = '#CC0000'
-  let g:vimshell_escape_colors[13] = '#CC0000'
-  let g:vimshell_escape_colors[14] = '#CC0000'
-  let g:vimshell_escape_colors[15] = '#CC0000'
+  " let g:vimshell_escape_colors[0]  = '#CC0000'
+  " let g:vimshell_escape_colors[1]  = '#CC0000'
+  " let g:vimshell_escape_colors[2]  = '#CC0000'
+  " let g:vimshell_escape_colors[3]  = '#CC0000'
+  " let g:vimshell_escape_colors[4]  = '#CC0000'
+  " let g:vimshell_escape_colors[5]  = '#CC0000'
+  " let g:vimshell_escape_colors[6]  = '#CC0000'
+  " let g:vimshell_escape_colors[7]  = '#CC0000'
+  " let g:vimshell_escape_colors[8]  = '#CC0000'
+  " let g:vimshell_escape_colors[9]  = '#CC0000'
+  " let g:vimshell_escape_colors[10] = '#CC0000'
+  " let g:vimshell_escape_colors[11] = '#CC0000'
+  " let g:vimshell_escape_colors[12] = '#CC0000'
+  " let g:vimshell_escape_colors[13] = '#CC0000'
+  " let g:vimshell_escape_colors[14] = '#CC0000'
+  " let g:vimshell_escape_colors[15] = '#CC0000'
 endif
 
 " Add hooks to vimshell
