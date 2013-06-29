@@ -15,6 +15,9 @@ endfunction
 
 function! vimshell_pure#user_prompt()
   let l:prompt = fnamemodify(getcwd(), ":~")
+  if l:prompt == '~/'
+    let l:prompt = '~'
+  endif
   return l:prompt
 endfunction
 
