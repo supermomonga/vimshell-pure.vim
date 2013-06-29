@@ -4,7 +4,6 @@ Pretty, minimal and fast VimShell prompt
 
 Inspired by [Pure](https://github.com/sindresorhus/pure), the zsh prompt.
 
-
 ![screenshot](https://raw.github.com/supermomonga/vimshell-pure.vim/master/screenshot.png)
 
 
@@ -22,3 +21,9 @@ If you are using NeoBundle.vim, you only need to write following lines to your .
 
     NeoBundle 'supermomonga/vimshell-pure', {'depends' : 'Shougo/vimshell'}
 
+
+
+img{
+  display: block;
+  margin: 10px auto;
+}
