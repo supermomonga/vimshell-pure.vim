@@ -1,6 +1,6 @@
 # VimShell Pure
 
-Pretty, minimal and fast VimShell prompt
+Pretty and minimal VimShell prompt
 
 Inspired by [Pure](https://github.com/sindresorhus/pure), the zsh prompt.
 
