@@ -1,0 +1,17 @@
+# vimshell-kawaii.vim
+
+To use vimshell-kawaii.vim, you can change your VimShell's prompt dinamically by previous command's status code.
+
+
+# Installation
+
+I reccomend to use NeoBundle.vim to manage Vim Plugins.
+If you are using NeoBundle.vim, you only need to write following lines to your .vimrc and just execute :NeoBundleInstall.
+
+    NeoBundle 'supermomonga/vimshell-kawaii', {'depends' : 'Shougo/vimshell'}
+
+# Usage
+
+Run VimShell, and enjoy kawaii prompt.
+
+    :VimShell
