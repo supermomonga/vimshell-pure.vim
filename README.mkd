@@ -15,7 +15,7 @@ Inspired by [Pure](https://github.com/sindresorhus/pure), the zsh prompt.
 
 # Installation
 
-I reccomend to use NeoBundle.vim to manage Vim Plugins.
+I recommend you to use NeoBundle.vim to manage Vim Plugins.
 If you are using NeoBundle.vim, you only need to write following lines to your .vimrc and just execute :NeoBundleInstall.
 
     NeoBundle 'supermomonga/vimshell-pure.vim', {'depends' : 'Shougo/vimshell.vim'}
