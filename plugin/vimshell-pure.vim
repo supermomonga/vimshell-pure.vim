@@ -24,8 +24,8 @@ let g:vimshell_pure_last_command_execution_time = g:vimshell_pure_last_command_f
 
 if g:vimshell_pure_allow_overwrite == 1
   let g:vimshell_prompt       = g:vimshell_pure_prompt
+  let g:vimshell_user_prompt  = g:vimshell_pure_user_prompt
   let g:vimshell_right_prompt = g:vimshell_pure_right_prompt
-  call vimshell_pure#update_user_prompt()
 endif
 
 if g:vimshell_pure_allow_colorscheme_overwrite == 1
@@ -51,7 +51,6 @@ endif
 autocmd FileType vimshell
       \  call vimshell#hook#add('preexec',  'vimshell_pure_preexec',  'vimshell_pure#preexec')
       \| call vimshell#hook#add('postexec', 'vimshell_pure_postexec', 'vimshell_pure#postexec')
-      \| call vimshell#hook#add('chpwd', 'vimshell_pure_chpwd', 'vimshell_pure#chpwd')
 
 let &cpo = s:save_cpo
 unlet s:save_cpo

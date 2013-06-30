@@ -6,15 +6,10 @@ function! vimshell_pure#preexec(cmdline, context)
   return a:cmdline
 endfunction
 
-
 function! vimshell_pure#postexec(cmdline, context)
   let g:vimshell_pure_last_command_finished = localtime()
   let g:vimshell_pure_last_command_execution_time = g:vimshell_pure_last_command_finished - g:vimshell_pure_last_command_started
   return a:cmdline
-endfunction
-
-function! vimshell_pure#chpwd(current_directory, context)
-  call vimshell_pure#update_user_prompt()
 endfunction
 
 function! vimshell_pure#user_prompt()
@@ -22,13 +17,8 @@ function! vimshell_pure#user_prompt()
   if l:prompt == '~/'
     let l:prompt = '~'
   endif
-  return "\"\"\n\"" . l:prompt . "\""
+  return "\n" . l:prompt
 endfunction
-
-function! vimshell_pure#update_user_prompt()
-  let g:vimshell_user_prompt  = eval(g:vimshell_pure_user_prompt)
-endfunction
-
 
 function! vimshell_pure#right_prompt()
   if g:vimshell_pure_last_command_execution_time == 0
