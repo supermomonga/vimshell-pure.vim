@@ -13,13 +13,22 @@ function! vimshell_pure#postexec(cmdline, context)
   return a:cmdline
 endfunction
 
+function! vimshell_pure#chpwd(current_directory, context)
+  call vimshell_pure#update_user_prompt()
+endfunction
+
 function! vimshell_pure#user_prompt()
   let l:prompt = fnamemodify(getcwd(), ":~")
   if l:prompt == '~/'
     let l:prompt = '~'
   endif
-  return l:prompt
+  return "\"\"\n\"" . l:prompt . "\""
 endfunction
+
+function! vimshell_pure#update_user_prompt()
+  let g:vimshell_user_prompt  = eval(g:vimshell_pure_user_prompt)
+endfunction
+
 
 function! vimshell_pure#right_prompt()
   if g:vimshell_pure_last_command_execution_time == 0

@@ -10,7 +10,8 @@ Inspired by [Pure](https://github.com/sindresorhus/pure), the zsh prompt.
 # Features
 
 * Comes with the perfect prompt character.
-* Command execution time will be displayed if it exceeds the one second
+* Command execution time will be displayed if it exceeds the one second.
+* Insert a blank line between each prompts.
 
 
 # Installation
